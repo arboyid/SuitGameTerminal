@@ -19,8 +19,8 @@ fun main() {
 
 //    Menentukan peraturan
     if (player!!.toLowerCase().equals(bot.toLowerCase())) {
-        println("Seri $bot dengan $player")
         println("Draw")
+        println(" $bot dengan $player")
     }
     else if (player.toLowerCase().equals("batu")) {
         if(bot.toLowerCase().equals("gunting")){
@@ -62,7 +62,8 @@ fun hasil(status: Boolean, p1: String, p2: String) {
         println("=====================")
         println("GAME SUIT TERMINAL VERSION")
         println("=====================")
-        println("Yah.. Kamu Kalah!! $p2 mengalahkan $p1")
+        println("Pemain 1 Menang!")
+        println("$p2 mengalahkan $p1")
 
     }
 }
